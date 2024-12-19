@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.logo{
+  width: 7vw;
+  height: 15vh;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0 1.4rem;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.res-card {
+  padding: 5px;
+  width: 20vw;
+  min-height: 76vh;
+  max-height: 76vh;  
+  background-color: #f0f0f0;
+}
+
+.res-card:hover{
+  border: 1px solid black;
+  cursor: pointer;
+}
+.search{
+  padding: 10px;
+}
+
+.res-logo{
+  width: 100%;
+  min-height: 40vh;
+  max-height: 40vh;
+}
+
+.res-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 95%;
+}
+
+.filter-btn{
+  margin: 10px;
+  cursor: pointer;
+}
+
+.login-logout-btn{
+  padding: 5px;
+  border: 1px solid #f49819;
+  min-width: 5vw;
+  max-width: 6vw;
+  min-height: 3vh;
+  max-height: 4vh;
+  border-radius: 5px;
+  cursor: pointer;
+}

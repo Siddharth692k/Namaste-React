@@ -1,0 +1,7 @@
+/node_modules
+.parcel-cache
+# /.parcel-cache/*
+# .parcel-cache/data.mdb
+dist/
+build/
+/package-lock.json
